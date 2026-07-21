@@ -1,0 +1,63 @@
+# Secrets and local configuration
+.env
+.env.*
+*.env
+secrets.json
+dart_defines.json
+env.json
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+key.properties
+service-account*.json
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+sentry.properties
+supabase/.temp/
+.supabase/
+
+# Android and Gradle local state
+# local.properties holds absolute SDK paths from the machine that built it
+android/local.properties
+android/.gradle/
+android/.idea/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+.gradle/
+local.properties
+
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Generated
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and coverage
+*.log
+coverage/

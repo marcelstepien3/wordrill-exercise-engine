@@ -1,0 +1,21 @@
+name: wordrill_exercise_engine
+description: A self-contained Flutter exercise renderer and XP progression system, extracted from the Wordrill language learning app.
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
